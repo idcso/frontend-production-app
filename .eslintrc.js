@@ -8,6 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:i18next/recommended',
   ],
   'overrides': [
     {
@@ -29,7 +30,8 @@ module.exports = {
   },
   'plugins': [
     '@typescript-eslint',
-    'react'
+    'react',
+    'i18next'
   ],
   'rules': {
     'indent': [
@@ -51,5 +53,6 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/ban-ts-comment': 'warn',
+    'i18next/no-literal-string': ['error', { markupOnly: true }],
   }
 };
