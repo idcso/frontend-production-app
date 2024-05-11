@@ -2,5 +2,7 @@
   "Main": "Главная",
   "About": "О сайте",
   "Language": "Русский",
-  "Page not found": "Страница не найдена"
+  "Page not found": "Страница не найдена",
+  "Unexpected error occurred": "Произошла непредвиденная ошибка",
+  "Reload page": "Обновить страницу"
 }
