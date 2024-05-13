@@ -1,4 +1,4 @@
-import { classNames } from './classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 
 describe('classNames', () => {
   test('with only first param', () => {
@@ -12,28 +12,31 @@ describe('classNames', () => {
 
   test('with true mods', () => {
     const expected = 'className selected hidden class1 class2';
-    expect(classNames(
-      'className',
-      {selected: true, hidden: true},
-      ['class1', 'class2']
-    )).toBe(expected);
+    expect(
+      classNames('className', { selected: true, hidden: true }, [
+        'class1',
+        'class2',
+      ])
+    ).toBe(expected);
   });
 
   test('with false mods', () => {
     const expected = 'className selected class1 class2';
-    expect(classNames(
-      'className',
-      {selected: true, hidden: false},
-      ['class1', 'class2']
-    )).toBe(expected);
+    expect(
+      classNames('className', { selected: true, hidden: false }, [
+        'class1',
+        'class2',
+      ])
+    ).toBe(expected);
   });
 
   test('with undefined mods', () => {
     const expected = 'className selected class1 class2';
-    expect(classNames(
-      'className',
-      {selected: true, hidden: undefined},
-      ['class1', 'class2']
-    )).toBe(expected);
+    expect(
+      classNames('className', { selected: true, hidden: undefined }, [
+        'class1',
+        'class2',
+      ])
+    ).toBe(expected);
   });
 });
