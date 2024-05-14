@@ -2,7 +2,7 @@
   width: var(--sidebar-width);
   height: calc(100vh - var(--navbar-height));
   position: relative;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--inverted-bg-color);
   transition: width 0.3s;
 }
 

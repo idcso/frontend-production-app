@@ -4,13 +4,7 @@ module.exports = {
     'es2021': true,
     'jest': true,
   },
-  'extends': [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:i18next/recommended',
-  ],
+  'extends': ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'plugin:i18next/recommended', 'plugin:storybook/recommended'],
   'overrides': [
     {
       'env': {
