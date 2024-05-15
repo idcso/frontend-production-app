@@ -16,7 +16,7 @@ describe('classNames', () => {
       classNames('className', { selected: true, hidden: true }, [
         'class1',
         'class2',
-      ])
+      ]),
     ).toBe(expected);
   });
 
@@ -26,7 +26,7 @@ describe('classNames', () => {
       classNames('className', { selected: true, hidden: false }, [
         'class1',
         'class2',
-      ])
+      ]),
     ).toBe(expected);
   });
 
@@ -36,7 +36,7 @@ describe('classNames', () => {
       classNames('className', { selected: true, hidden: undefined }, [
         'class1',
         'class2',
-      ])
+      ]),
     ).toBe(expected);
   });
 });
