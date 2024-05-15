@@ -21,14 +21,16 @@ export const buildPlugins = ({
     new DefinePlugin({
       __IS_DEV__: JSON.stringify(isDev),
     }),
-    new BundleAnalyzerPlugin({
-      openAnalyzer: false,
-    }),
   ];
 
   if (isDev) {
-    return [...plugins, new ReactRefreshWebpackPlugin()];
-  } else {
-    return plugins;
+    plugins.push(
+      new ReactRefreshWebpackPlugin(),
+      new BundleAnalyzerPlugin({
+        openAnalyzer: false,
+      })
+    );
   }
+
+  return plugins;
 };
