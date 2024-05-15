@@ -54,6 +54,9 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/ban-ts-comment': 'warn',
-    'i18next/no-literal-string': ['error', { markupOnly: true }],
+    'i18next/no-literal-string': [
+      'error',
+      { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }
+    ],
   }
 };
