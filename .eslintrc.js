@@ -34,7 +34,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'react', 'i18next'],
+  plugins: ['@typescript-eslint', 'react', 'i18next', 'react-hooks'],
   rules: {
     indent: ['error', 2],
     //'linebreak-style': ['error', 'unix'],
@@ -47,5 +47,7 @@ module.exports = {
       'error',
       { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] },
     ],
+    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 'error' // Checks effect dependencies
   },
 };
