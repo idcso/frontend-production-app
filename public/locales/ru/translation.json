@@ -6,5 +6,7 @@
   "Page not found": "Страница не найдена",
   "Unexpected error occurred": "Произошла непредвиденная ошибка",
   "Reload page": "Обновить страницу",
-  "Login": "Войти"
+  "Login": "Войти",
+  "Enter username": "Введите username",
+  "Enter password": "Введите пароль"
 }
