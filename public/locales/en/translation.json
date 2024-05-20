@@ -8,5 +8,10 @@
   "Reload page": "Reload page",
   "Login": "Login",
   "Enter username": "Enter username",
-  "Enter password": "Enter password"
+  "Enter password": "Enter password",
+  "Authorization": "Authorization",
+  "Authorization form": "Authorization form",
+  "Wrong username or password": "Wrong username or password",
+  "Sign in": "Sign in",
+  "Sign out": "Sign out"
 }

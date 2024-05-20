@@ -65,6 +65,10 @@
   height: var(--line-height-xl);
 }
 
+.disabled {
+  opacity: 0.5;
+}
+
 // .Button {
 //   cursor: pointer;
 //   color: var(--primary-color);
