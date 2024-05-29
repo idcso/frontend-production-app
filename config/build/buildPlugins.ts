@@ -28,7 +28,7 @@ export const buildPlugins = ({
       new ReactRefreshWebpackPlugin(),
       new BundleAnalyzerPlugin({
         openAnalyzer: false,
-      }),
+      })
     );
   }
 
