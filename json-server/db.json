@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "idc",
+    "lastname": "so",
+    "age": 26,
+    "currency": "KZT",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "username": "admin",
+    "avatar": "https://i.imgur.com/SLZaaql.png"
+  }
 }
