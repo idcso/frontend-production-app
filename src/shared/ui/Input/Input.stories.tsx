@@ -20,6 +20,15 @@ export const Primary: Story = {
   },
 };
 
+export const PrimaryReadonly: Story = {
+  args: {
+    placeholder: 'Enter text',
+    value: 'random text 123',
+    readonly: true,
+    readOnly: true,
+  },
+};
+
 export const PrimaryDark: Story = {
   args: {
     placeholder: 'Enter text',

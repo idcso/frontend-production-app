@@ -1,10 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import {
-  AsyncThunkAction,
   EnhancedStore,
   Reducer,
   ReducersMapObject,
-  ThunkDispatch,
   UnknownAction,
 } from '@reduxjs/toolkit';
 import { AxiosInstance } from 'axios';
@@ -44,4 +42,5 @@ export interface ThunkExtraArg {
 export interface ThunkConfig<T> {
   rejectValue: T;
   extra: ThunkExtraArg;
+  state: StateSchema;
 }
