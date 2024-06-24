@@ -10,5 +10,14 @@
   "Your age": "Your age",
   "Your city": "Your city",
   "Enter username": "Enter username",
-  "Enter avatar link": "Enter avatar link"
+  "Enter avatar link": "Enter avatar link",
+  "First name and last name are required": "First name and last name are required",
+  "Incorrect age": "Incorrect age",
+  "Username is required": "Username is required",
+  "Incorrect country": "Incorrect country",
+  "Incorrect city": "Incorrect city",
+  "Incorrect currency": "Incorrect currency",
+  "Incorrect avatar link": "Incorrect avatar link",
+  "Data not specified": "Data not specified",
+  "Server error on saving": "Server error on saving"
 }

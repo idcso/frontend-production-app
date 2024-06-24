@@ -17,3 +17,4 @@ declare module '*.jpeg';
 
 declare const __IS_DEV__: boolean;
 declare const __API__: string;
+declare const __PROJECT__: 'frontend' | 'jest' | 'storybook';
