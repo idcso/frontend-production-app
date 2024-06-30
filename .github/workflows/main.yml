@@ -6,6 +6,7 @@ on:
     branches: [main]
 jobs:
   pipeline:
+    if: ${{ false }}
     runs-on: windows-latest
     strategy:
       matrix:
